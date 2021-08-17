@@ -1,6 +1,6 @@
 # Express Import Routes
 
-[![Build status](https://img.shields.io/travis/tylerhaun/express-express-import-routes/master.svg?style=flat-square)](https://travis-ci.org/tylerhaun/express-import-routes)
+[![Build status](https://img.shields.io/travis/tylerhaun/express-import-routes/master.svg?style=flat-square)](https://travis-ci.org/tylerhaun/express-import-routes)
 
 Import express routes from file system structure for easy scalability
 
