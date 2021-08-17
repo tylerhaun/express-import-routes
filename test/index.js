@@ -32,9 +32,19 @@ describe("express", () => {
       .expect(200)
   })
 })
-describe("import users route", () => {
-  it("should succeed request", async function() {
-    const response = await context.request.get("/users").expect(200);
+describe("routes", () => {
+  describe("users", () => {
+    it("should succeed request", async function() {
+      const response = await context.request.get("/users").expect(200);
+    })
+  })
+  describe("payments", () => {
+    it("should succeed post request", async function() {
+      const response = await context.request.post("/payments").expect(200);
+    })
+    it("should succeed get by id request", async function() {
+      const response = await context.request.get("/payments/0000000").expect(200);
+    })
   })
 })
 
