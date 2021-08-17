@@ -1,6 +1,6 @@
 # Express Import Routes
 
-[![Build status](https://img.shields.io/travis/tylerhaun/express-express-import-routes/master.svg?style=flat-square)](https://travis-ci.org/tylerhaun/express-import-rotues)
+[![Build status](https://img.shields.io/travis/tylerhaun/express-express-import-routes/master.svg?style=flat-square)](https://travis-ci.org/tylerhaun/express-import-routes)
 
 Import express routes from file system structure for easy scalability
 
@@ -25,7 +25,7 @@ importRoutes(app, rootPath);
 ├── index.js
 └── routes
     ├── users.js
-    ├── cart.js
+    ├── shopping-carts.js
     ├── payments.js
     └── files.js
 
