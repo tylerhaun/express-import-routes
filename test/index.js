@@ -5,7 +5,6 @@ const path = require("path");
 
 const context = {};
 before(async function() {
-  console.log("before()");
 
   const rootPath = path.join(__dirname, "routes");
   const app = express();
@@ -22,7 +21,6 @@ before(async function() {
 
 
 after(async () => {
-  console.log("after()");
   context.server.close();
 });
 
